@@ -82,10 +82,9 @@ This repository contains hands-on DevOps tasks focused on Linux system administr
 ## 🚀 How to Use This Repository
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/devops-linux-tasks.git
+   git clone https://github.com/jikjatin/90DaysOfDevOpsChallenge/tree/main/Linux
    ```
 2. Follow the steps mentioned in each task directory.
-3. Replace the placeholders with actual images.
 
 ## 🛠 Technologies Used
 - Linux
