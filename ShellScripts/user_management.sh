@@ -1,6 +1,6 @@
 #!/bin/bash
 <<info
-This script create provides various user management functions like create,delete,list
+This script provides various user management functions like create,delete,list
 info
 
 
