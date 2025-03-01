@@ -54,7 +54,20 @@ cat /etc/passwd | awk -F: '{print $1" "$3}' # print column 1 and 3 of passwd fil
 
 #------Help guide-----------
 function help(){
-echo -e "Use '-c' argument to create a new user\nUse '-d' argument to delete a user\nUse '-r' argument to reset password of a user\nUse '-l' argument to list all user along with their UID"
+echo -e "Use '-c' argument to create a new user\nUse '-d' argument to delete a user\nUse '-r' argument to reset password of a user\nUse '-l' argument to list all user along with their UID\nUse '-n' argument to change username"
+}
+
+#------Change username------
+function change_username(){
+  read -p "Enter username to be changed: " uname
+  if [ "$uname" == "$(grep $uname  /etc/passwd | awk -F: '{print $1}')" ]
+  then
+    read -p "Enter new username: " nname
+    sudo usermod -l $nname $uname
+    echo "<<====Username $uname changed to $nname====>>"
+  else
+    echo "<<====User $uname doesn't exist====>>"
+  fi
 }
 
 
@@ -73,6 +86,9 @@ then
 elif [ "$1" == "-h" ]
 then
   help
+elif [ "$1" == "-n" ]
+then
+  change_username
 else
   echo "Use '-h' argument for help"
 fi
