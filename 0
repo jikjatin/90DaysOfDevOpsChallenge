@@ -1,1 +1,2 @@
-userdel: tws mail spool (/var/mail/tws) not found
+userdel: test6 mail spool (/var/mail/test6) not found
+userdel: test6 home directory (/home/test6) not found
