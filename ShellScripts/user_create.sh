@@ -26,5 +26,5 @@ fi
 
 <<info
 '-F:' sets ':' as the field separator instead of default space because 'passwd' file uses ':' as field seprator
-/dev/null 2>&1 Discards standard output including errors by using '2>&1'
+/dev/null 2>&1 Discards standard output including errors by using '2>&1'. '2>' is used for redirecting standard error.
 info
