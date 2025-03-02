@@ -37,11 +37,6 @@ Each challenge includes the corresponding script file, explanations, and example
 ### Example Usage:  
 ![Example Usage:](images/backup_rotation.png)
 
-
-### Example Output:
-```
-Backup created: /home/user/documents/backup_2023-08-01_09-15-30
-```
 After multiple executions, only the last 3 backups are retained.
 
 📄 **Script File:** [backup_with_rotation.sh](./backup_with_rotation.sh)  
