@@ -4,7 +4,7 @@ dest=/home/Jatin/Backups
 src=$1
 
 function log_create(){
-  timestamp=$(date '+%y-%m-%d-%s')
+  timestamp=$(date '+%y-%m-%d-%H-%M')
   mkdir $dest/backup_$timestamp && cp -r $src $dest/backup_$timestamp/
   echo "Backup completed $dest/backup_$timestamp"
 }
