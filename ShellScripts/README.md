@@ -37,7 +37,11 @@ Each challenge includes the corresponding script file, explanations, and example
 ### Example Usage:  
 ![Example Usage:](images/backup_rotation.png)
 
-After multiple executions, only the last 3 backups are retained.
+After multiple executions, only the last 3 backups are retained.  
+
+### 📷 **Crontab setup:**  
+![Example Usage:](images/crontab.png)  
+The script will run at 17:30 every day.  
 
 📄 **Script File:** [backup_with_rotation.sh](./backup_with_rotation.sh)  
 
