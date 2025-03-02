@@ -34,10 +34,9 @@ Each challenge includes the corresponding script file, explanations, and example
 - **Creates timestamped backup folders**
 - **Retains only the last 3 backups, deleting older ones**
 
-### Example Usage:
-```bash
-./backup_with_rotation.sh /home/user/documents
-```
+### Example Usage:  
+![Example Usage:](images/backup_rotation.png)
+
 
 ### Example Output:
 ```
