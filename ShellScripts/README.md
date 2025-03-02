@@ -52,7 +52,7 @@ After multiple executions, only the last 3 backups are retained.
 ## 📜 How to Use
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/bash-scripting-challenges.git](https://github.com/jikjatin/90DaysOfDevOpsChallenge.git
+   git clone https://github.com/jikjatin/90DaysOfDevOpsChallenge.git
    cd ShellScripts
    ```
 2. **Grant execution permissions:**
