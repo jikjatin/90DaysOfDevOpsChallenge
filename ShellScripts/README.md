@@ -52,7 +52,7 @@ Backup created: /home/user/documents/backup_2023-08-01_09-15-30
 ```
 After multiple executions, only the last 3 backups are retained.
 
-📄 **Script File:** [backup_with_rotation.sh](scripts/backup_with_rotation.sh)
+📄 **Script File:** [backup_with_rotation.sh](./backup_with_rotation.sh)
 
 📷 **Screenshot:** ![Backup Process](images/backup_process.png)
 
