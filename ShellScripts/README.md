@@ -27,7 +27,7 @@ Each challenge includes the corresponding script file, explanations, and example
 ./user_management.sh -h  # Display help
 ```
 
-📄 **Script File:** [user_management.sh](scripts/user_management.sh)
+📄 **Script File:** [user_management.sh](./user_management.sh)
 
 📷 **Screenshot:** ![User Management](images/user_management.png)
 
