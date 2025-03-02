@@ -18,8 +18,7 @@ Each challenge includes the corresponding script file, explanations, and example
 - **List user accounts:** `-l` or `--list`
 - **Help section:** `-h` or `--help`
 
-### Example Usage:
-(images/user_management.png)
+###![Example Usage:](images/user_management.png)
 
 📄 **Script File:** [user_management.sh](./user_management.sh)
 
