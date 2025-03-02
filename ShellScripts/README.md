@@ -19,13 +19,7 @@ Each challenge includes the corresponding script file, explanations, and example
 - **Help section:** `-h` or `--help`
 
 ### Example Usage:
-```bash
-./user_management.sh -c  # Create a user
-./user_management.sh -d  # Delete a user
-./user_management.sh -r  # Reset password
-./user_management.sh -l  # List users
-./user_management.sh -h  # Display help
-```
+(images/user_management.png)
 
 📄 **Script File:** [user_management.sh](./user_management.sh)
 
