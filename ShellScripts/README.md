@@ -61,13 +61,13 @@ After multiple executions, only the last 3 backups are retained.
 ## 📜 How to Use
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/bash-scripting-challenges.git
-   cd bash-scripting-challenges
+   git clone https://github.com/your-username/bash-scripting-challenges.git](https://github.com/jikjatin/90DaysOfDevOpsChallenge.git
+   cd ShellScripts
    ```
 2. **Grant execution permissions:**
    ```bash
-   chmod +x scripts/user_management.sh
-   chmod +x scripts/backup_with_rotation.sh
+   chmod +x user_management.sh
+   chmod +x backup_with_rotation.sh
    ```
 3. **Run the scripts with appropriate arguments.**
 
