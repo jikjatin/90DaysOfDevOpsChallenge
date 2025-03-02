@@ -23,7 +23,7 @@ Each challenge includes the corresponding script file, explanations, and example
 
 📄 **Script File:** [user_management.sh](./user_management.sh)
 
-📷 **Screenshot:** ![User Management](images/user_management.png)
+📷 **Screenshot:** ![User Management](images/usermanage.png)
 
 ---
 
