@@ -15,7 +15,7 @@ Welcome to the Week 4 Git and GitHub Challenge! This repository contains all the
   cd 2025/git/01_Git_and_Github_Basics
   ```
 
-**Image Placeholder:** `![Task 1 Screenshot](images/task1.png)`
+**Image Placeholder:** ![Task 1 Screenshot](images/task1.png)
 
 ---
 
