@@ -1,112 +1,129 @@
 # Git and GitHub Challenge - Week 4
 
-Welcome to the Week 4 Git and GitHub Challenge! This repository showcases the tasks completed as part of the challenge. Each task includes an explanation, commands used, and an attached image demonstrating the execution.
+Welcome to the Week 4 Git and GitHub Challenge! This repository contains all the tasks completed as part of the challenge, showcasing essential Git and GitHub commands and workflows.
 
-## Task 1: Fork and Clone the Repository
-### Steps:
-1. Fork the repository from GitHub.
-2. Clone your forked repository:
-   ```sh
-   git clone <your-fork-url>
-   cd 2025/git/01_Git_and_Github_Basics
-   ```
+## Tasks Completed
 
-![Task 1 Screenshot](images/task1.png)
+### Task 1: Fork and Clone the Repository
+- Forked the repository to my GitHub account.
+- Cloned the forked repository using:
+  ```sh
+  git clone <your-fork-url>
+  ```
+- Navigated into the cloned repository:
+  ```sh
+  cd 2025/git/01_Git_and_Github_Basics
+  ```
 
-## Task 2: Initialize a Local Repository and Create a File
-### Steps:
-1. Create a new directory for this challenge:
-   ```sh
-   mkdir week-4-challenge
-   cd week-4-challenge
-   ```
-2. Initialize a Git repository:
-   ```sh
-   git init
-   ```
-3. Create a file and add initial content:
-   ```sh
-   echo "Your Name - Introduction" > info.txt
-   ```
-4. Stage and commit the file:
-   ```sh
-   git add info.txt
-   git commit -m "Initial commit: Add info.txt with introductory content"
-   ```
-
-![Task 2 Screenshot](images/task2.png)
-
-## Task 3: Configure Remote URL with PAT and Push/Pull
-### Steps:
-1. Configure remote URL:
-   ```sh
-   git remote add origin https://<your-username>:<your-PAT>@github.com/<your-username>/90DaysOfDevOps.git
-   ```
-2. Push changes:
-   ```sh
-   git push -u origin main
-   ```
-3. Pull changes:
-   ```sh
-   git pull origin main
-   ```
-
-![Task 3 Screenshot](images/task3.png)
-
-## Task 4: Explore Your Commit History
-### Steps:
-1. View commit history:
-   ```sh
-   git log
-   ```
-
-![Task 4 Screenshot](images/task4.png)
-
-## Task 5: Advanced Branching and Switching
-### Steps:
-1. Create a new branch:
-   ```sh
-   git branch feature-update
-   git switch feature-update
-   ```
-2. Modify and commit changes:
-   ```sh
-   echo "More details added" >> info.txt
-   git add info.txt
-   git commit -m "Feature update: Enhance info.txt with additional details"
-   git push origin feature-update
-   ```
-
-![Task 5 Screenshot](images/task5.png)
-
-## Task 6: Explain Branching Strategies
-A proper branching strategy helps in:
-- Isolating features and bug fixes.
-- Facilitating parallel development.
-- Reducing merge conflicts.
-- Enabling effective code reviews.
-
-![Task 6 Screenshot](images/task6.png)
-
-## Bonus Task: Explore SSH Authentication
-### Steps:
-1. Generate an SSH key:
-   ```sh
-   ssh-keygen
-   ```
-2. Add the key to GitHub and switch to SSH remote URL:
-   ```sh
-   git remote set-url origin git@github.com:<your-username>/90DaysOfDevOps.git
-   ```
-3. Test by pushing using SSH:
-   ```sh
-   git push origin feature-update
-   ```
-
-![Bonus Task Screenshot](images/bonus.png)
+**Image Placeholder:** `![Task 1 Screenshot](images/task1.png)`
 
 ---
-### 🎯 Submission
-Ensure all updates are pushed to your repository and create a Pull Request with a proper description. Happy coding! 🚀
 
+### Task 2: Initialize a Local Repository and Create a File
+- Created a new directory for the challenge:
+  ```sh
+  mkdir week-4-challenge
+  cd week-4-challenge
+  ```
+- Initialized the directory as a Git repository:
+  ```sh
+  git init
+  ```
+- Created a file `info.txt` with some initial content.
+- Staged and committed the file:
+  ```sh
+  git add info.txt
+  git commit -m "Initial commit: Add info.txt with introductory content"
+  ```
 
+**Image Placeholder:** `![Task 2 Screenshot](images/task2.png)`
+
+---
+
+### Task 3: Configure Remote URL with PAT and Push/Pull
+- Configured remote URL with a Personal Access Token (PAT):
+  ```sh
+  git remote add origin https://<your-username>:<your-PAT>@github.com/<your-username>/90DaysOfDevOps.git
+  ```
+- Pushed the changes to the remote repository:
+  ```sh
+  git push -u origin main
+  ```
+- Pulled remote changes:
+  ```sh
+  git pull origin main
+  ```
+
+**Image Placeholder:** `![Task 3 Screenshot](images/task3.png)`
+
+---
+
+### Task 4: Explore Commit History
+- Viewed commit history using:
+  ```sh
+  git log
+  ```
+
+**Image Placeholder:** `![Task 4 Screenshot](images/task4.png)`
+
+---
+
+### Task 5: Advanced Branching and Switching
+- Created a new branch `feature-update`:
+  ```sh
+  git branch feature-update
+  ```
+- Switched to the new branch:
+  ```sh
+  git switch feature-update
+  ```
+- Modified `info.txt` and committed the changes:
+  ```sh
+  git add info.txt
+  git commit -m "Feature update: Enhance info.txt with additional details"
+  ```
+- Pushed the branch to the remote repository:
+  ```sh
+  git push origin feature-update
+  ```
+
+**Image Placeholder:** `![Task 5 Screenshot](images/task5.png)`
+
+---
+
+### Task 6: Explain Branching Strategies
+- Documented all Git commands used.
+- Explained the importance of branching strategies in collaborative development:
+  - Isolating features and bug fixes.
+  - Facilitating parallel development.
+  - Reducing merge conflicts.
+  - Enabling effective code reviews.
+
+**Image Placeholder:** `![Task 6 Screenshot](images/task6.png)`
+
+---
+
+### Bonus Task: Explore SSH Authentication
+- Generated an SSH key pair using:
+  ```sh
+  ssh-keygen
+  ```
+- Added the SSH key to GitHub.
+- Changed the remote URL to use SSH:
+  ```sh
+  git remote set-url origin git@github.com:<your-username>/90DaysOfDevOps.git
+  ```
+- Pushed a branch using SSH:
+  ```sh
+  git push origin feature-update
+  ```
+
+**Image Placeholder:** `![Bonus Task Screenshot](images/task_bonus.png)`
+
+---
+
+## Notes
+- Each task is well-documented and includes the corresponding Git commands used.
+- Placeholder images are provided (`images/taskX.png`). Replace these with actual screenshots.
+
+Feel free to contribute or suggest improvements! 🚀
