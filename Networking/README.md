@@ -1,112 +1,91 @@
-# Week 1: Networking Challenge - 90 Days of DevOps (2025 Edition)
+# Networking Challenge - Week 1
 
 ## Overview
-Welcome to **Week 1 of the 90 Days of DevOps - 2025 Edition!** This week's focus is on **Networking**, a crucial skill for every DevOps professional. Networking is the backbone of communication between applications, services, and infrastructure in modern cloud environments. This challenge will help you understand the fundamentals of networking and apply them to real-world DevOps scenarios.
-
-## Tasks
-
-### 1️⃣ Understanding OSI & TCP/IP Models
-#### Learning Objectives:
-- Understand the **OSI Model** (7 layers) and **TCP/IP Model** (4 layers).
-- Learn how these models map to real-world networking scenarios.
-
-#### Task:
-- Write examples of how each OSI layer applies to real-world scenarios:
-  - **Application Layer (Layer 7):** Handles high-level APIs, like HTTP, SMTP, and FTP.
-    - Example: When you visit a website (HTTP request), your browser interacts with the web server.
-  - **Presentation Layer (Layer 6):** Ensures data is in the correct format (e.g., encryption, compression).
-    - Example: SSL/TLS encrypts HTTPS traffic for secure transmission.
-  - **Session Layer (Layer 5):** Manages sessions and connections between applications.
-    - Example: A persistent SSH connection between your system and a remote server.
-  - **Transport Layer (Layer 4):** Ensures reliable data transfer (TCP) or faster, connectionless communication (UDP).
-    - Example: TCP is used for downloading files to ensure data integrity.
-  - **Network Layer (Layer 3):** Handles routing and addressing (IP, ICMP, ARP).
-    - Example: Routers use IP addresses to forward data between networks.
-  - **Data Link Layer (Layer 2):** Manages MAC addresses and switches.
-    - Example: A switch forwards packets to the correct device on the local network.
-  - **Physical Layer (Layer 1):** Defines hardware connections (Ethernet cables, Wi-Fi, etc.).
-    - Example: Your laptop's network adapter transmits data as electrical signals over an Ethernet cable.
+Welcome to Week 1 of the **90 Days of DevOps - 2025 Edition**! This week, we focused on **Networking**, a fundamental concept for DevOps professionals. Below are the tasks completed during this challenge.
 
 ---
 
-### 2️⃣ Protocols and Ports for DevOps
-#### Learning Objectives:
-- Understand commonly used **network protocols** and their **port numbers**.
-- Learn their importance in **DevOps workflows**.
+## Tasks Completed
 
-#### Task:
-- Create a blog, article, or GitHub page explaining key networking protocols:
-  - **HTTP (80) / HTTPS (443):** Used for web traffic and REST APIs.
-  - **SSH (22):** Securely connects to remote servers (e.g., managing cloud instances).
-  - **FTP (21) / SFTP (22):** Transfers files between systems.
-  - **DNS (53):** Resolves domain names to IP addresses.
-  - **MySQL (3306) / PostgreSQL (5432):** Common database communication ports.
-  - **Redis (6379):** In-memory caching service used in cloud environments.
-- Explain their relevance in DevOps, such as configuring **firewalls, security groups, and Kubernetes networking**.
+### 1. Understanding OSI & TCP/IP Models
+Networking operates using structured models that define communication layers. We explored both **OSI (Open Systems Interconnection) Model** and **TCP/IP Model**:
+
+- **OSI Model** (7 Layers):
+  1. Physical (Cables, Ethernet)
+  2. Data Link (MAC Address, Switches)
+  3. Network (IP Addresses, Routers)
+  4. Transport (TCP/UDP)
+  5. Session (Maintains Sessions)
+  6. Presentation (Encryption, Encoding)
+  7. Application (HTTP, FTP, DNS)
+
+- **TCP/IP Model** (4 Layers):
+  1. Network Interface (Physical & Data Link in OSI)
+  2. Internet (Network Layer in OSI)
+  3. Transport (Same as OSI)
+  4. Application (Combines OSI’s Top 3 Layers)
+
+**Real-World Examples:**
+- **HTTP at Application Layer** → Websites use it for communication.
+- **TCP at Transport Layer** → Ensures reliable data transfer.
+- **IP at Network Layer** → Assigns unique addresses to devices.
+
+### 2. Protocols and Ports for DevOps
+Understanding networking protocols and ports is essential in DevOps for managing cloud infrastructure, security, and CI/CD pipelines.
+
+- **Common Protocols & Port Numbers:**
+  - **HTTP (80), HTTPS (443)** → Web Communication
+  - **FTP (21), SFTP (22)** → File Transfers
+  - **SSH (22)** → Secure Remote Login
+  - **DNS (53)** → Domain Name Resolution
+  - **MySQL (3306), PostgreSQL (5432)** → Database Connections
+
+✅ **Created a detailed guide listing these protocols and their relevance to DevOps workflows.**
+
+### 3. AWS EC2 and Security Groups
+AWS EC2 allows launching cloud-based virtual machines, and **Security Groups** act as a firewall to control inbound and outbound traffic.
+
+**Steps Followed:**
+1. **Launched an EC2 Instance** (Ubuntu Free Tier).
+2. **Created a Security Group** with the following rules:
+   - Allowed SSH (22) only from my IP.
+   - Enabled HTTP (80) for web access.
+   - Allowed HTTPS (443) for secure communication.
+3. **Connected to EC2 using SSH:**
+   ```bash
+   ssh -i my-key.pem ubuntu@<public-ip>
+   ```
+4. **Tested Web Server Setup** by installing and running an Apache server.
+
+✅ **Documented a step-by-step guide on setting up Security Groups.**
+
+### 4. Hands-On with Networking Commands
+Practiced and documented commonly used networking commands:
+
+- **ping** → Checks connectivity between devices.
+  ```bash
+  ping google.com
+  ```
+- **traceroute / tracert** → Traces the path packets take to reach a destination.
+  ```bash
+  traceroute google.com
+  ```
+- **netstat** → Displays network connections and listening ports.
+  ```bash
+  netstat -tulnp
+  ```
+- **curl** → Fetches data from URLs (useful in DevOps for API testing).
+  ```bash
+  curl -I https://google.com
+  ```
+- **dig / nslookup** → Performs DNS lookups.
+  ```bash
+  dig google.com
+  ```
+
+✅ **Created a cheat sheet explaining the usage and output of these commands.**
 
 ---
 
-### 3️⃣ AWS EC2 and Security Groups
-#### Learning Objectives:
-- Understand how **Security Groups** protect cloud infrastructure.
-- Learn how to launch and configure an **AWS EC2 instance**.
-
-#### Task:
-- Launch an **AWS EC2 instance** (Free Tier recommended).
-- Configure **Security Groups**:
-  - Allow inbound traffic on **port 22 (SSH)** for remote access.
-  - Restrict all unnecessary open ports to enhance security.
-  - Allow only necessary **HTTP (80) / HTTPS (443) traffic** if running a web server.
-- Write a **step-by-step guide** explaining:
-  - How to launch an **EC2 instance**.
-  - How to configure **Security Groups**.
-  - Best practices for **securing cloud environments**.
-
----
-
-### 4️⃣ Hands-On with Networking Commands
-#### Learning Objectives:
-- Master essential **network troubleshooting** and **diagnostic commands**.
-- Learn how to check connectivity, analyze routes, and inspect network traffic.
-
-#### Task:
-- Create a **cheat sheet** explaining each of these networking commands:
-  - **ping:** Test connectivity to a remote system.
-    ```sh
-    ping google.com
-    ```
-  - **traceroute / tracert (Windows):** Trace the path packets take to a destination.
-    ```sh
-    traceroute google.com
-    ```
-  - **netstat:** Display active network connections and listening ports.
-    ```sh
-    netstat -tulnp
-    ```
-  - **curl:** Make HTTP requests to test API responses.
-    ```sh
-    curl -I https://google.com
-    ```
-  - **dig / nslookup:** Perform DNS lookups to verify domain resolution.
-    ```sh
-    dig google.com
-    nslookup google.com
-    ```
-- Document real-world **use cases** for each command, such as debugging server issues and troubleshooting DNS failures.
-
----
-
-## How to Submit
-- Create a **LinkedIn post** summarizing your **Week 1 Networking Challenge** experience.
-- Include the **link to your blog, GitHub page, or README** in the comments of your post.
-- **Pro Tip:** Use a **networking diagram or flowchart** to visually explain key concepts.
-
----
-
-## Conclusion
-Networking is a **critical skill** in the DevOps world. Whether setting up cloud environments, troubleshooting connectivity issues, or configuring security groups, understanding networking fundamentals is essential for DevOps engineers. By completing these tasks, you've built a strong foundation for upcoming DevOps challenges! 🚀
-
----
-
-**Happy Learning!** 🎯
+This challenge provided a solid foundation in networking concepts essential for DevOps professionals. 🚀
 
