@@ -1,7 +1,7 @@
 # Networking Challenge - Week 1
 
 ## Overview
-Welcome to Week 1 of the **90 Days of DevOps - 2025 Edition**! This week, we focused on **Networking**, a fundamental concept for DevOps professionals. Below are the tasks completed during this challenge.
+Welcome to Week 1 of the **90 Days of DevOps - 2025 Edition**! This week, focused on **Networking**, a fundamental concept for DevOps professionals. Below are the tasks completed during this challenge.
 
 ---
 
