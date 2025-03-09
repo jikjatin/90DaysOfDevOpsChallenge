@@ -50,6 +50,7 @@ git remote add origin https://<your-username>:<your-PAT>@github.com/<your-userna
 git push -u origin main
 git pull origin main
 ```
+![git push](images/git_PAT.png)  
 
 ![Task 3](images/task3.png)
 
