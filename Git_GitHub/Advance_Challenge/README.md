@@ -120,8 +120,6 @@ This challenge covers advanced Git concepts essential for real-world DevOps work
   - **GitHub Flow** (Main + Feature branches)
   - **Trunk-Based Development** (Continuous Integration)
 
-![Task 6 Screenshot](images/task6.png)
-
 ---
 
 ## Summary
