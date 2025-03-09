@@ -51,6 +51,7 @@ git push -u origin main
 git pull origin main
 ```
 ![git push](images/git_PAT.png)  
+Got the above error when trying to push add to first use 'git pull --rebase origin master' to resolve the issue.
 
 ![Task 3](images/task3.png)
 
