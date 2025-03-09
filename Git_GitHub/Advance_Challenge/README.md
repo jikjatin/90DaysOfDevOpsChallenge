@@ -42,7 +42,13 @@ This challenge covers advanced Git concepts essential for real-world DevOps work
   git revert HEAD           # Safely reverts last commit
   ```
 
-![Task 2 Screenshot](images/task2.png)
+![Task 2 Screenshot](images/task2_1.png)
+![Task 2 Screenshot](images/task2_2.png)
+![Task 2 Screenshot](images/task2_3.png)
+![Task 2 Screenshot](images/task2_4.png)
+![Task 2 Screenshot](images/task2_5.png)
+
+
 
 ---
 
