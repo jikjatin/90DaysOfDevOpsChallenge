@@ -22,7 +22,6 @@ This challenge covers advanced Git concepts essential for real-world DevOps work
   ```
 - Merged the PR after review.
 
-![Task 1 Screenshot](images/task1.png)
 
 ---
 
