@@ -127,15 +127,10 @@ By following a well-defined **branching strategy**, teams can maintain a **clean
 ssh-keygen
 cat ~/.ssh/id_ed25519.pub # Copy this key to GitHub
 
-<<<<<<< HEAD
-git remote set-url origin git@github.com:<your-username>/90DaysOfDevOps.git
-=======
 git remote set-url origin git@github.com:jikjatin/90DaysOfDevOps.git
->>>>>>> 6861e7e92a6e35aed7f3d36172c7684dade32d86
 git push origin feature-update
 ```
 
-![Bonus Task](images/bonus-task.png)
 
 ---
 
