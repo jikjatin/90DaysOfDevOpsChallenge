@@ -115,7 +115,6 @@ Branching strategies are essential in collaborative software development, partic
 By following a well-defined **branching strategy**, teams can maintain a **clean, organized, and scalable** codebase while enhancing **collaboration and code stability**. 🚀  
 
 
-![Task 6](images/task6.png)
 
 ---
 
