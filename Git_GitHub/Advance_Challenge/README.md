@@ -66,7 +66,8 @@ This challenge covers advanced Git concepts essential for real-world DevOps work
   git stash pop
   ```
 
-![Task 3 Screenshot](images/task3.png)
+![Task 3 Screenshot](images/task3_1.png)  
+![Task 3 Screenshot](images/task3_2.png)
 
 ---
 
@@ -85,7 +86,8 @@ This challenge covers advanced Git concepts essential for real-world DevOps work
   git cherry-pick --continue
   ```
 
-![Task 4 Screenshot](images/task4.png)
+![Task 4 Screenshot](images/task4_1.png)  
+![Task 4 Screenshot](images/task4_2.png)
 
 ---
 
