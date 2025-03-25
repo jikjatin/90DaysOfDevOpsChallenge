@@ -115,7 +115,8 @@ docker run -d --name sample-app --network my_network <your-username>/sample-app:
 docker run -d --name my-db --network my_network -e MYSQL_ROOT_PASSWORD=root mysql:latest
 ```
 
-![Task 7 Screenshot](images/task7.png)
+![Task 7 Screenshot](task_images/task7.2.png). 
+![Task 7 Screenshot](task_images/task7.3.png)
 
 ## Task 8: Orchestrate with Docker Compose
 
