@@ -45,10 +45,21 @@ docker logs <container_id>
 
 ## Task 3: Explore Docker Terminologies and Components
 
-### ✅ Completed Task
-- Documented key Docker terminologies and components.
+### Key Docker Terminologies  
 
-![Task 3 Screenshot](images/task3.png)
+- **Image**: A lightweight, standalone, and executable package that includes everything needed to run a piece of software, including the code, runtime, libraries, and dependencies.  
+- **Container**: A running instance of a Docker image that encapsulates an application and its dependencies.  
+- **Dockerfile**: A script containing a set of instructions to automate the creation of Docker images.  
+- **Volume**: A mechanism for persisting data outside the container’s filesystem, ensuring data is retained even after a container is removed.  
+- **Network**: A way for containers to communicate with each other using Docker’s built-in networking capabilities.  
+
+### Docker Components  
+
+- **Docker Engine**: The core component responsible for running containers.  
+- **Docker Hub**: A cloud-based registry where Docker images can be stored and shared.  
+- **Docker CLI**: A command-line tool used to interact with Docker, manage images, and run containers.  
+- **Container Runtime**: The underlying technology that enables containers to run efficiently, such as `containerd`.  
+
 
 ## Task 4: Optimize Your Docker Image with Multi-Stage Builds
 
