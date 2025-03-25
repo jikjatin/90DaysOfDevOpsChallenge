@@ -86,7 +86,8 @@ docker push <your-username>/sample-app:v1.0
 docker pull <your-username>/sample-app:v1.0
 ```
 
-![Task 5 Screenshot](images/task5.png)
+![Task 5 Screenshot](task_images/task5.1.png). 
+![Task 5 Screenshot](task_images/task5.2.png)
 
 ## Task 6: Persist Data with Docker Volumes
 
