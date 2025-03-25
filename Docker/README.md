@@ -100,7 +100,7 @@ docker volume create my_volume
 docker run -d -v my_volume:/app/data <your-username>/sample-app:v1.0
 ```
 
-![Task 6 Screenshot](images/task6.png)
+![Task 6 Screenshot](task_images/task6.png)
 
 ## Task 7: Configure Docker Networking
 
