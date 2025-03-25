@@ -41,8 +41,6 @@ docker ps
 docker logs <container_id>
 ```
 
-![Task 2 Screenshot](images/task2.png)
-
 ## Task 3: Explore Docker Terminologies and Components
 
 ### Key Docker Terminologies  
@@ -72,7 +70,8 @@ docker logs <container_id>
 docker images
 ```
 
-![Task 4 Screenshot](images/task4.png)
+![Task 4 Screenshot](images/task4.1.png). 
+![Task 4 Screenshot](images/task4.2.png)
 
 ## Task 5: Manage Your Image with Docker Hub
 
