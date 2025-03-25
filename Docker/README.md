@@ -71,7 +71,7 @@ docker images
 ```
 
 ![Task 4 Screenshot](task_images/tesk4.1.png). 
-![Task 4 Screenshot](task-images/task4.2.png)
+![Task 4 Screenshot](task_images/task4.2.png)
 
 ## Task 5: Manage Your Image with Docker Hub
 
