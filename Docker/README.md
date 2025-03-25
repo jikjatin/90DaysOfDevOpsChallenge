@@ -145,13 +145,41 @@ docker scout cves <your-username>/sample-app:v1.0 > scout_report.txt
 
 ![Task 9 Screenshot](images/task9.png)
 
-## Task 10: Documentation and Critical Reflection
+## Task 10: Documentation and Critical Reflection  
 
-### ✅ Completed Task
-- Documented steps, commands, and improvements.
-- Wrote reflections on Docker’s impact.
+### Commands Executed  
+Throughout this challenge, the following key Docker commands were used:  
 
-![Task 10 Screenshot](images/task10.png)
+```sh
+# Build and run a Docker container
+docker build -t <your-username>/sample-app:latest .
+docker run -d -p 8080:80 <your-username>/sample-app:latest
+
+# Verify running containers and logs
+docker ps
+docker logs <container_id>
+
+# Tag and push image to Docker Hub
+docker tag <your-username>/sample-app:latest <your-username>/sample-app:v1.0
+docker push <your-username>/sample-app:v1.0
+
+# Work with Docker volumes
+docker volume create my_volume
+docker run -d -v my_volume:/app/data <your-username>/sample-app:v1.0
+
+# Manage Docker networking
+docker network create my_network
+docker run -d --name sample-app --network my_network <your-username>/sample-app:v1.0
+docker run -d --name my-db --network my_network -e MYSQL_ROOT_PASSWORD=root mysql:latest
+
+# Deploy using Docker Compose
+docker-compose up -d
+docker-compose down
+
+# Analyze security with Docker Scout
+docker scout cves <your-username>/sample-app:v1.0 > scout_report.txt
+```
+
 
 ---
 ## 🎯 Conclusion
