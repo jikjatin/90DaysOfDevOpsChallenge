@@ -4,28 +4,27 @@ Welcome to the **Week 5 Docker Challenge!** This repository showcases the comple
 
 ## Task 1: Introduction and Conceptual Understanding
 
-Introduction to Docker
+### Introduction to Docker  
 Docker is an open-source platform designed to automate the deployment, scaling, and management of applications. It allows developers to package applications and their dependencies into lightweight, portable containers, ensuring consistency across different environments.
 
-Virtualization vs. Containerization
-Feature	Virtualization	Containerization
-Architecture	Uses a hypervisor to create VMs	Uses a container runtime (e.g., Docker)
-Performance	Higher overhead due to full OS	Lightweight, shares the host OS kernel
-Boot Time	Slow (minutes)	Fast (seconds)
-Resource Usage	Requires more CPU & RAM	Efficient resource utilization
-Isolation	Stronger (separate OS per VM)	Process-level isolation
-Why Containerization is Preferred for Microservices & CI/CD?
-Lightweight & Fast - Containers start quickly and consume fewer resources compared to VMs.
+### Virtualization vs. Containerization  
 
-Consistency Across Environments - Ensures that applications run the same way in development, testing, and production.
+| Feature            | Virtualization                          | Containerization                         |
+|--------------------|--------------------------------------|-----------------------------------------|
+| **Architecture**   | Uses a hypervisor to create VMs    | Uses a container runtime (e.g., Docker) |
+| **Performance**    | Higher overhead due to full OS     | Lightweight, shares the host OS kernel |
+| **Boot Time**      | Slow (minutes)                     | Fast (seconds)                         |
+| **Resource Usage** | Requires more CPU & RAM           | Efficient resource utilization         |
+| **Isolation**      | Stronger (separate OS per VM)     | Process-level isolation                |
 
-Scalability - Containers allow for efficient scaling and orchestration using tools like Kubernetes.
+### Why Containerization is Preferred for Microservices & CI/CD?  
+✅ **Lightweight & Fast** - Containers start quickly and consume fewer resources compared to VMs.  
+✅ **Consistency Across Environments** - Ensures that applications run the same way in development, testing, and production.  
+✅ **Scalability** - Containers allow for efficient scaling and orchestration using tools like Kubernetes.  
+✅ **Microservices Support** - Ideal for breaking applications into smaller, independent services.  
+✅ **CI/CD Integration** - Easily integrates with CI/CD pipelines for faster deployment and rollback.  
 
-Microservices Support - Ideal for breaking applications into smaller, independent services.
 
-CI/CD Integration - Easily integrates with CI/CD pipelines for faster deployment and rollback.
-
-![Task 1 Screenshot](images/task1.png)
 
 ## Task 2: Create a Dockerfile for a Sample Project
 
