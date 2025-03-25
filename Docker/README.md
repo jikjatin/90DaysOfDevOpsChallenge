@@ -130,7 +130,8 @@ docker-compose up -d
 docker-compose down
 ```
 
-![Task 8 Screenshot](images/task8.png)
+![Task 8 Screenshot](task_images/Screenshot_2025-03-25_1 _15-29-38.png). 
+![Task 8 Screenshot](task_images/Screenshot_2025-03-25_1 _15-29-38.png)
 
 ## Task 9: Analyze Your Image with Docker Scout
 
