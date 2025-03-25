@@ -127,5 +127,5 @@ docker scout cves <your-username>/sample-app:v1.0 > scout_report.txt
 ![Task 10 Screenshot](images/task10.png)
 
 ---
-### 🎉 Challenge Completed!
-All tasks have been successfully completed and documented. 🚀
+## 🎯 Conclusion
+This challenge provided hands-on experience with Docker’s essential and advanced features. It covered everything from building images, networking, and data persistence to container orchestration and security analysis.
