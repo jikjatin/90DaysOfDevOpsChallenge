@@ -145,8 +145,8 @@ docker scout quickview <your-username>/sample-app:v1.0
 docker scout cves <your-username>/sample-app:v1.0 > scout_report.txt
 ```
 
-![Task 9 Screenshot](images/task9_1.png)  
-![Task 9 Screenshot](images/task9_2.png)
+![Task 9 Screenshot](task_images/task9_1.png)  
+![Task 9 Screenshot](task_images/task9_2.png)
 
 ## Task 10: Documentation and Critical Reflection  
 
