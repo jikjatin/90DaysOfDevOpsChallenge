@@ -70,7 +70,7 @@ docker logs <container_id>
 docker images
 ```
 
-![Task 4 Screenshot](task_images/tesk4_1.png). 
+![Task 4 Screenshot](task_images/task4_1.png). 
 ![Task 4 Screenshot](task_images/task4_2.png)
 
 ## Task 5: Manage Your Image with Docker Hub
