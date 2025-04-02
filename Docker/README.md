@@ -70,8 +70,8 @@ docker logs <container_id>
 docker images
 ```
 
-![Task 4 Screenshot](task_images/tesk4.1.png). 
-![Task 4 Screenshot](task_images/task4.2.png)
+![Task 4 Screenshot](task_images/task4_1.png). 
+![Task 4 Screenshot](task_images/task4_2.png)
 
 ## Task 5: Manage Your Image with Docker Hub
 
@@ -115,8 +115,8 @@ docker run -d --name sample-app --network my_network <your-username>/sample-app:
 docker run -d --name my-db --network my_network -e MYSQL_ROOT_PASSWORD=root mysql:latest
 ```
 
-![Task 7 Screenshot](task_images/task7.2.png). 
-![Task 7 Screenshot](task_images/task7.3.png)
+![Task 7 Screenshot](task_images/task7_2.png). 
+![Task 7 Screenshot](task_images/task7_3.png)
 
 ## Task 8: Orchestrate with Docker Compose
 
@@ -130,8 +130,8 @@ docker-compose up -d
 docker-compose down
 ```
 
-![Task 8 Screenshot](task_images/Screenshot_2025-03-25_15-29-38.png). 
-![Task 8 Screenshot](task_images/Screenshot_2025-03-25_15-30-02.png)
+![Task 8 Screenshot](task_images/task8_1.png). 
+![Task 8 Screenshot](task_images/task8_2.png)
 
 ## Task 9: Analyze Your Image with Docker Scout
 
@@ -145,7 +145,8 @@ docker scout quickview <your-username>/sample-app:v1.0
 docker scout cves <your-username>/sample-app:v1.0 > scout_report.txt
 ```
 
-![Task 9 Screenshot](images/task9.png)
+![Task 9 Screenshot](task_images/task9_1.png)  
+![Task 9 Screenshot](task_images/task9_2.png)
 
 ## Task 10: Documentation and Critical Reflection  
 

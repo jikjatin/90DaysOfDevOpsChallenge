@@ -47,7 +47,7 @@ function passwd_reset(){
 
 #-------List all user--------
 function list_user(){
-cat /etc/passwd | awk -F: '{print $1" "$3}' # print column 1 and 3 of passwd file. Using " " to add between columns
+cat /etc/passwd | awk -F: '{print $1" "$3}' # print column 1 and 3 of passwd file. Using " " to add space between columns
 #Below command will show Username,UID,home directory and shell
 #cat /etc/passwd | awk -F: '{print $1" "$3" "$6" "$7}'
 }
