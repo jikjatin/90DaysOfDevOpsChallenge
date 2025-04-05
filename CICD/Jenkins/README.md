@@ -35,8 +35,7 @@ pipeline {
 }
 ```
 
-### 📸 Screenshot:
-![Task 1 Screenshot](images/task1.png)
+📄 **Jenkins File:** [Jenkins](./Jenkins)
 
 ### 🤔 Interview Questions & Answers
 **Q: How do declarative pipelines streamline the CI/CD process compared to scripted pipelines?**  
