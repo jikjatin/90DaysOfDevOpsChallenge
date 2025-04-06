@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+    stages {
+        stage("Clone Repository") {
+            steps {
+                git url: 'https://github.com/jikjatin/two-tier-flask-app.git', branch: "${env.BRANCH_NAME}"
+                echo "Building branch: ${env.BRANCH_NAME}"
+            }
+        }
+
+        stage("Build Docker Image") {
+            when {
+                anyOf {
+                    branch 'master'
+                    branch 'feature-update'
+                }
+            }
+            steps {
+                sh "docker build -t flask-app:${env.BRANCH_NAME} ."
+            }
+        }
+
+        stage("Push to DockerHub") {
+            when {
+                branch 'master'
+            }
+            steps {
+                withCredentials([usernamePassword(
+                    credentialsId: "dockerhubCred",
+                    usernameVariable: "dockerhubName",
+                    passwordVariable: "dockerhubPass"
+                )]) {
+                    sh "docker login -u ${env.dockerhubName} -p ${env.dockerhubPass}"
+                    sh "docker tag flask-app:${env.BRANCH_NAME} ${env.dockerhubName}/two-tier-flask-app:${env.BRANCH_NAME}"
+                    sh "docker push ${env.dockerhubName}/two-tier-flask-app:${env.BRANCH_NAME}"
+                }
+            }
+        }
+
+        stage("Deploy") {
+            when {
+                branch 'master'
+            }
+            steps {
+                sh "docker-compose up -d --build flask-app"
+            }
+        }
+    }
+}
