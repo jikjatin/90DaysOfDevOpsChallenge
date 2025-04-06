@@ -72,8 +72,7 @@ pipeline {
 }
 ```
 
-### 📸 Screenshot:
-![Task 2 Screenshot](images/task2.png)
+📄 **Jenkins File:** [Jenkins](./Jenkins_multi)
 
 ### 🤔 Interview Questions & Answers
 **Q: How does a multi-branch pipeline improve continuous integration for microservices?**  
