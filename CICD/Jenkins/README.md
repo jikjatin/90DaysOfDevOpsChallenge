@@ -35,7 +35,7 @@ pipeline {
 }
 ```
 
-📄 **Jenkins File:** [Jenkins](./Jenkins)
+📄 **Jenkins File:** [Jenkins](Files/Jenkins)
 
 ### 🤔 Interview Questions & Answers
 **Q: How do declarative pipelines streamline the CI/CD process compared to scripted pipelines?**  
@@ -72,7 +72,7 @@ pipeline {
 }
 ```
 
-📄 **Jenkins File:** [Jenkins](./Jenkins_multi)
+📄 **Jenkins File:** [Jenkins](Files/Jenkins_multi)
 
 ### 🤔 Interview Questions & Answers
 **Q: How does a multi-branch pipeline improve continuous integration for microservices?**  
@@ -113,7 +113,7 @@ A: By using node labels and specifying `agent { label 'linux' }` in the Jenkinsf
 - Created test accounts for different user roles
 
 ### 📸 Screenshot:
-![Task 4 Screenshot](images/task4.png)
+![Task 4 Screenshot](Files/task4.png)
 
 ### 🤔 Interview Questions & Answers
 **Q: Why is RBAC essential in a CI/CD environment?**  
