@@ -185,8 +185,6 @@ parameters {
 }
 ```
 
-### 📸 Screenshot:
-![Task 7 Screenshot](images/task7.png)
 
 ### 🤔 Interview Questions & Answers
 **Q: How does parameterization improve flexibility?**  
