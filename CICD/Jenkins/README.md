@@ -95,7 +95,7 @@ docker run -d --name jenkins-agent-linux jenkins/agent
 ```
 
 ### 📸 Screenshot:
-![Task 3 Screenshot](images/task3.png)
+![Task 3 Screenshot](Files/task3.png)
 
 ### 🤔 Interview Questions & Answers
 **Q: What are the benefits of using distributed agents in Jenkins?**  
