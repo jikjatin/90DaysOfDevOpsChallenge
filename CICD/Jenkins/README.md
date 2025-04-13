@@ -162,7 +162,7 @@ trivy fs .
 ```
 
 ### 📸 Screenshot:
-![Task 6 Screenshot](images/task6.png)
+![Task 6 Screenshot](Files/task6.png)
 
 ### 🤔 Interview Questions & Answers
 **Q: Why is integrating vulnerability scanning important?**  
