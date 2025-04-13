@@ -216,13 +216,9 @@ A: Check SMTP settings, Jenkins logs, and plugin configurations.
 ### ✅ Completed Task
 - Debugged a **failed pipeline** and resolved errors
 
-### 🔧 Commands Used:
-```sh
-docker logs jenkins
-```
 
 ### 📸 Screenshot:
-![Task 9 Screenshot](images/task9.png)
+![Task 9 Screenshot](Files/task9.png)
 
 ### 🤔 Interview Questions & Answers
 **Q: How do you troubleshoot a failing pipeline?**  
