@@ -158,7 +158,7 @@ A: Notification, testing, and deployment scripts.
 
 ### 🔧 Commands Used:
 ```sh
-trivy image my-docker-app:v1.0
+trivy fs .
 ```
 
 ### 📸 Screenshot:
