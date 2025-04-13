@@ -202,8 +202,6 @@ A: It enables dynamic deployments without modifying pipeline code.
 emailext (subject: 'Build Notification', body: 'Build Completed', recipientProviders: [[class: 'DevelopersRecipientProvider']])
 ```
 
-### 📸 Screenshot:
-![Task 8 Screenshot](images/task8.png)
 
 ### 🤔 Interview Questions & Answers
 **Q: How would you troubleshoot email notifications failing?**  
